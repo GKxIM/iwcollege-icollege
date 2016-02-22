@@ -1,0 +1,51 @@
+
+.home header{
+	display: none !important;
+}
+
+body {
+	header{
+		&.global{
+			background-color: @blue !important; 
+		}
+		.logo{
+			a{
+				background-image: url(@logo-image) !important;
+				background-repeat: no-repeat;
+				background-size: 90px 90px !important;
+				height: 90px !important;
+				width: 90px !important;
+			}
+		}
+
+		ol{
+			&.right{
+				&.nav-courseware{
+					margin-top: 20px !important;
+				}
+			}
+		}
+	}
+
+	
+
+	
+
+	footer{
+		&.global{
+			background-color: @blue !important;
+		}
+	}
+}
+
+.content-wrapper{
+	.course-info {
+		header{
+			.course-profile{
+				padding-top: 22px;
+			}
+		}
+	}
+}
+
+
